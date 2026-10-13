@@ -1,0 +1,21 @@
+{
+  "name": "boilerplate-nick-node",
+  "version": "0.1.0",
+  "description": "A small, dependency-free Node.js project template with a built-in notes system.",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "start:env": "node --env-file=.env src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "note": "node scripts/new-note.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
